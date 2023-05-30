@@ -7,3 +7,10 @@ Header {
 div {
     padding: 5px; margin: 10px; font-size: x-large;
 }
+
+h2 {
+    background-color: deeppink;
+}
+p {
+    font-size: larger;color: rgb(133, 66, 25); background-color: bisque;
+}
