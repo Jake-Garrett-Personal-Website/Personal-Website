@@ -1,3 +1,13 @@
-.child {
-    display: inline-block;
+body {
+    background-color: cyan;
+}
+
+header {
+    color: coral; font-size: xx-large; padding: 10px;
+    margin: 20px; border-bottom: solid black;
+}
+
+section {
+    font-size:x-large; color: slateblue; background-color: bisque;
+    padding: 5px; margin: 10px; border: solid;
 }
