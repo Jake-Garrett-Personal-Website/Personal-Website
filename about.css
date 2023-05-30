@@ -1,0 +1,11 @@
+body {
+    background-color: cyan;
+}
+header {
+    color: coral; font-size: xx-large; padding: 5px;
+    margin: 10px;
+}
+p {
+    font-size: x-large; padding: 5px; margin: 10px; color: black; border: solid;
+    background-color: bisque ;
+}
