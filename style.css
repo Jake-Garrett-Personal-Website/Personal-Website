@@ -1,6 +1,17 @@
 body {
     background-color: cyan;
 }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 50px 10px;
+}
+
+h1 {
+    color: coral; font-size: xx-large; padding: 10px;
+    margin: 20px;
+}
 
 header {
     color: coral; font-size: xx-large; padding: 10px;
@@ -9,5 +20,20 @@ header {
 
 section {
     font-size:x-large; color: slateblue; background-color: bisque;
-    padding: 5px; margin: 10px; border: solid;
+    padding: 2em; margin: 1em; border: solid;
+}
+@media  (min-width: 320px) {
+    h1{
+       color:rgb(94, 9, 73);
+    }
+}
+@media  (min-width: 768px) {
+    h1{
+       color:red;
+    }
+}
+@media  (min-width: 1050px) {
+    h1{
+       color:coral;
+    }
 }

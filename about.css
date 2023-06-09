@@ -1,11 +1,38 @@
 body {
     background-color: cyan;
 }
+
+h1 {
+    color: coral; font-size: xx-large; padding: 10px;
+    margin: 20px;
+}
+
 header {
     color: coral; font-size: xx-large; padding: 5px;
-    margin: 10px;
+    margin: 10px; border-bottom: solid black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 50px 10px;
 }
 p {
-    font-size: x-large; padding: 5px; margin: 10px; color: black; border: solid;
+    font-size: x-large; padding: 2em; margin: 1em; color: black; border: solid;
     background-color: bisque ;
+}
+@media  (min-width: 320px) {
+    h1{
+       color:rgb(94, 9, 73);
+    }
+}
+@media  (min-width: 768px) {
+    h1{
+       color:red;
+    }
+}
+@media  (min-width: 1050px) {
+    h1{
+       color:coral;
+    }
 }
