@@ -5,7 +5,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px 50px 10px;
 }
 h1 {
     color: coral; font-size: xx-large; padding: 10px;
@@ -15,16 +14,6 @@ h1 {
 header {
     color: coral; font-size: xx-large; padding: 10px;
     margin: 20px; border-bottom: solid black;
-}
-div {
-    padding: 2em; margin: 1em; font-size: x-large;
-}
-
-h2 {
-    background-color: deeppink;
-}
-p {
-    font-size: larger;color: rgb(133, 66, 25); background-color: bisque;
 }
 
 @media  (min-width: 320px) {
@@ -39,6 +28,6 @@ p {
 }
 @media  (min-width: 1050px) {
     h1{
-       color: coral;
+       color:coral;
     }
 }
